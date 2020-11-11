@@ -28,7 +28,7 @@ services:
 
   nginx:
     container_name: nginx
-    image: nginx:latest
+    image: krystalsimmonds/sfia-three-nginx
     ports:
       - target: 80
         published: 80
