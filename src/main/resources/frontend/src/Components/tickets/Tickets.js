@@ -253,8 +253,7 @@ export default class Tickets extends Component {
                                 </div>
 
                                 <span className={"text-red"}>
-                                    Resolved: <ReactTimeAgo date={ticketClsd.lastUpdated} locale="en-US"
-                                                             timeStyle="round"/>
+                                    Resolved: {ticketClsd.lastUpdated}
                                 </span>
                             </Card.Header>
                             <Card.Body>

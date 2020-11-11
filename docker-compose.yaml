@@ -1,34 +1,28 @@
 version: "3.3"
 services:
   frontend:
-    container_name: frontend
+    container_name: frontend2
     build: ./src/main/resources/frontend
-    image: krystalsimmonds/sfia-three-react
+    image: krystalsimmonds/sfia-three-react:v2
     ports:
       - target: 3000
         published: 3000
+        protocol: tcp
     depends_on:
       - backend
 
   backend:
     container_name: backend
     build: ./
-    image: krystalsimmonds/sfia-three-spring
+    image: krystalsimmonds/sfia-three-spring:v2
     ports:
       - target: 9500
         published: 9500
         protocol: tcp
 
-  #  database:
-  #    container_name: database
-  #    image: mysql:5.7
-  #    ports:
-  #      - target: 3306
-  #        published: 3306
-
   nginx:
     container_name: nginx
-    image: krystalsimmonds/sfia-three-nginx
+    image: krystalsimmonds/sfia-three-nginx:v2
     ports:
       - target: 80
         published: 80
