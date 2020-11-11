@@ -81,7 +81,7 @@ can access different pages in a structured environment.
 ### Wireframes
 
 #### HOME PAGE
-![homePageDesign](documentation/homepage.png)
+![homePageDesign](https://github.com/makhdoomshabir/Final-Project/blob/DevOps/documentation/homepage.png)
 
 #### ADD TICKET
 ![addTicketDesign](documentation/TicketAdd.png)
@@ -113,6 +113,10 @@ The frontend of the application was tested using Jest and the React-render-libra
 
 
 ### Frontend Design 
+
+![new-ticket](https://github.com/makhdoomshabir/Final-Project/blob/Frontend/documentation/newticketform.png)
+![view-tickets](https://github.com/makhdoomshabir/Final-Project/blob/Frontend/documentation/viewtickets.png)
+![home-page](https://github.com/makhdoomshabir/Final-Project/blob/Frontend/documentation/homepage.png)
 
 ### Authors
 Adama Kabba
